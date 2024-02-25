@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#189AB4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/balloon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="50dp"
+        android:src="@drawable/balloon1">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="45dp"
+        android:paddingVertical="15dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#2B2E4A"
+        android:onClick="startGame"
+        android:text="Start"
+        android:textSize="20dp">
+
+    </Button>
+
+
+</LinearLayout>
